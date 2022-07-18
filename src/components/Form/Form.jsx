@@ -38,9 +38,18 @@ const Form = () => {
                 const res = await api.post('/api/lead/', {email: data.email})
                 console.log(res)
                 if (res.status === 201 ) {
-                    emailjs.sendForm('service_he1x9df', 'template_xi9vhpl', form.current, 'cLz3hQDmEbQo1n_H-')
+                    emailjs.sendForm('service_ictjxj3', 'template_xi9vhpl', form.current, 'cLz3hQDmEbQo1n_H-')
                     .then((result) => {
                         console.log(result.text);
+                        toast.success('ENQUIRY SENT', {
+                            position: "top-right",
+                            autoClose: 5000,
+                            hideProgressBar: false,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                        });
                         reset()    
                     }, (error) => {
                         console.log(error.text);
@@ -58,6 +67,15 @@ const Form = () => {
             emailjs.sendForm('service_he1x9df', 'template_xi9vhpl', form.current, 'cLz3hQDmEbQo1n_H-')
                 .then((result) => {
                     console.log(result.text);
+                    toast.success('ENQUIRY SENT', {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    });
                     reset()    
                 }, (error) => {
                     console.log(error.text);
@@ -95,8 +113,8 @@ const Form = () => {
                     )}
                 </div>
                 <div className='flex flex-col gap-2'>
-                    <label>Message</label>
-                    <textarea maxLength={1500}  className=' focus:outline-0 p-3 rounded-lg h-48' name='message' aria-invalid={errors.message ? true : false} {...register("message", {required: true})} />
+                    <label htmlFor='textarea'>Message</label>
+                    <textarea maxLength={1500} id='textarea'  className=' focus:outline-0 p-3 rounded-lg h-48' name='message' aria-invalid={errors.message ? true : false} {...register("message", {required: true})} />
                     <div className='flex justify-between'>
                     {errors.message && errors.message.type === 'required' && (
                         <small className='text-red-700 text-base' role='alert'>Enter a message</small>
@@ -109,7 +127,7 @@ const Form = () => {
 
                 <div className='flex items-center checkbox gap-2'>
                     <input className='cursor-pointer' checked={ischecked} onChange={()=>checkbox()}  id='check' type='checkbox' />
-                    <p className='cursor-pointer' onClick={()=>checkbox()}>Subscribe to our newsletter for amazing design</p>
+                    <label htmlFor='check' className='cursor-pointer' onClick={()=>checkbox()}>Subscribe to our newsletter for amazing design</label>
                 </div>
 
                 <input value='SUBMIT' className='mt-2 bg-white self-start py-3 px-8 text-lg border-white cursor-pointer border hover:bg-transparent hover:text-white' type='submit' />

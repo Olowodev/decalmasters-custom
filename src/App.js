@@ -8,6 +8,7 @@ import Section from './components/Section/Section';
 import collage from './images/collage.png'
 import shirt from './images/t-shirt.png'
 import {ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
