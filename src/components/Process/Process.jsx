@@ -11,16 +11,16 @@ const Process = () => {
                 <div className='flex processRow justify-between'>
                     <div className='flex flex-col items-center gap-8'>
                         <div className='border-4 rounded-[50%] text-5xl px-12 py-10'><p>1</p></div>
-                        <h2 className='text-2xl'>FILL IN THE FORM BELOW</h2>
+                        <h2 className='text-2xl text-center'>FILL IN THE FORM BELOW</h2>
                     </div>
                     <div className='flex flex-col items-center gap-8'>
                         <div className='border-4 rounded-[50%] text-5xl px-12 py-10'><p>2</p></div>
-                        <h2 className='text-2xl'>WE CONTACT YOU</h2>
+                        <h2 className='text-2xl text-center'>WE CONTACT YOU</h2>
                     </div>
                 </div>
                 <div className='self-center flex flex-col items-center gap-8'>
                     <div className='border-4 rounded-[50%] text-5xl px-12 py-10'><p>3</p></div>
-                    <h2 className='text-2xl'>WE DELIVER YOUR DECAL AND VINYL STICKERS</h2>
+                    <h2 className='text-2xl text-center'>WE DELIVER YOUR DECAL AND VINYL STICKERS</h2>
                 </div>
             </div>
         </div>

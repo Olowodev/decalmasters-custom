@@ -38,7 +38,7 @@ const Form = () => {
                 const res = await api.post('/api/lead/', {email: data.email})
                 console.log(res)
                 if (res.status === 201 ) {
-                    emailjs.sendForm('service_ictjxj3', 'template_xi9vhpl', form.current, 'cLz3hQDmEbQo1n_H-')
+                    emailjs.sendForm('service_ictjxj3', 'template_ymkmjeh', form.current, 'TMwCsrzmb2z9VMuV4')
                     .then((result) => {
                         console.log(result.text);
                         toast.success('ENQUIRY SENT', {
@@ -53,6 +53,15 @@ const Form = () => {
                         reset()    
                     }, (error) => {
                         console.log(error.text);
+                        toast.error('ENQUIRY NOT SENT', {
+                            position: "top-right",
+                            autoClose: 5000,
+                            hideProgressBar: false,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                        });
                     }
                 );
                 }
@@ -64,7 +73,7 @@ const Form = () => {
                   console.log(err)
               } 
         } else {
-            emailjs.sendForm('service_he1x9df', 'template_xi9vhpl', form.current, 'cLz3hQDmEbQo1n_H-')
+            emailjs.sendForm('service_ictjxj3', 'template_ymkmjeh', form.current, 'TMwCsrzmb2z9VMuV4')
                 .then((result) => {
                     console.log(result.text);
                     toast.success('ENQUIRY SENT', {
@@ -79,6 +88,15 @@ const Form = () => {
                     reset()    
                 }, (error) => {
                     console.log(error.text);
+                    toast.error('ENQUIRY NOT SENT', {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    });
                 }
             );
         }

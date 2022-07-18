@@ -44,6 +44,15 @@ const Footer = () => {
                   if (err.response.status === 409 ) {
                     setErrorMessage('This email is already subscribed');
                   } 
+                  toast.error('ENQUIRY NOT SENT', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
                   console.log(err)
               } 
 
