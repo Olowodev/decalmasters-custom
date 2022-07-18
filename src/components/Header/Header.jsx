@@ -16,7 +16,7 @@ const Header = () => {
         <div className='absolute headerImg img1 top-4 -left-24 rotate-[120deg]'>
             <img width={400} height={400} src={decal1} alt='header image 1' />
         </div>
-        <div className='absolute top-4 headerImg img2 -right-24 -rotate-[120deg]'>
+        <div className='absolute top-4 headerImg img2 -right-24 -rotate-[115deg]'>
             <img width={400} height={400} src={decal2} alt='header image 2' />
         </div>
         <div className='absolute -bottom-52 img3'>

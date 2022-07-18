@@ -145,7 +145,7 @@ const Form = () => {
 
                 <div className='flex items-center checkbox gap-2'>
                     <input className='cursor-pointer' checked={ischecked} onChange={()=>checkbox()}  id='check' type='checkbox' />
-                    <label htmlFor='check' className='cursor-pointer' onClick={()=>checkbox()}>Subscribe to our newsletter for amazing design</label>
+                    <p htmlFor='check' className='cursor-pointer' onClick={()=>checkbox()}>Subscribe to our newsletter for amazing design</p>
                 </div>
 
                 <input value='SUBMIT' className='mt-2 bg-white self-start py-3 px-8 text-lg border-white cursor-pointer border hover:bg-transparent hover:text-white' type='submit' />

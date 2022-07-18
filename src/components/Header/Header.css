@@ -1,19 +1,19 @@
 @media screen and (max-width: 768px) {
 
     .img1 {
-        left: 10;
+        left: -100px;
     }
 
     .img2 {
-        right: 10;
+        right: -100px;
     }
 
     .img3 {
-        bottom: -13rem;
+        bottom: -16rem;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 750px) {
     .img3 {
         display: none;
     }

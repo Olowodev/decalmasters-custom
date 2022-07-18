@@ -6,7 +6,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="bg-[#f1f1f1] navbar">
-        <div className='flex justify-between items-center  mx-20 py-2 navbarCont'>
+        <div className='flex justify-between items-center  mx-16 py-2 navbarCont'>
             <div>
                 <img src={logo} width={70} alt='logo' />
             </div>

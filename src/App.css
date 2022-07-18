@@ -1,0 +1,14 @@
+@media screen and (min-width: 1701px) {
+    .App {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+}
