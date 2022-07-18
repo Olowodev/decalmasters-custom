@@ -1,0 +1,12 @@
+@media screen and (max-width: 520px) {
+    .formCont {
+        margin: 0 1rem;
+    }
+
+    .formCont input {
+        width: calc(18.75rem + ((1vw - 3.2px) * 75));
+        min-height: 0vw;
+    }
+
+    
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .navbarCont {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .rightNav a {
+        display: none;
+    }
+}

@@ -3,7 +3,7 @@ import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import Process from './components/Process';
+import Process from './components/Process/Process';
 import Section from './components/Section/Section';
 import collage from './images/collage.png'
 import shirt from './images/t-shirt.png'

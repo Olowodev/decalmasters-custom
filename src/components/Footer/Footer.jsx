@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaChevronCircleRight, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaChevronCircleRight, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
 import masterCard from '../../images/mastercard.png'
 import visa from '../../images/visa.png'
 import './Footer.css'
@@ -36,10 +36,13 @@ const Footer = () => {
                     </div>
                     <div className='socials'>
                         <div>
-                            <FaInstagram style={{fontSize:22}} />
+                            <a href='https://www.instagram.com/thedecalmasters' target='_blank'><FaInstagram style={{fontSize:22}} /></a>
                         </div>
                         <div>
-                            <FaFacebook style={{fontSize:22}}  />
+                            <a href='https://www.tiktok.com/@thedecalmasters' target='_blank'><FaTiktok style={{fontSize:22}}  /></a>
+                        </div>
+                        <div> 
+                            <a href='https://wa.me/447450085724' target='_blank'><FaWhatsapp style={{fontSize:22}}  /></a>
                         </div>
                     </div>
                 </div>

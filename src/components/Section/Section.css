@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .sectionCont {
+        flex-direction: column;
+    }
+
+    .writeup {
+        align-items: center;
+        text-align: center;
+    }
+
+    .writeup h1 {
+        text-align: center;
+        font-size: 2rem;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .sectionCont {
+        margin: 0 4rem;
+    }
+}
+

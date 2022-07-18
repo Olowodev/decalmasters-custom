@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .processCont {
+        margin: 0 1rem;
+    }
+}
+
+@media (min-width: 320px) {
+    .processCont h1 {
+      font-size: calc(2rem + ((1vw - 3.2px) * 2.5));
+      min-height: 0vw;
+    }
+  }
+
+  @media (min-width: 320px) {
+    .processCont p {
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.7143));
+      min-height: 0vw;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .processRow {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+  }
+
+  @media (min-width: 320px) {
+    .processCont h3 {
+        font-size: calc(1rem + ((1vw - 3.2px) * 0.7143));
+      min-height: 0vw;
+    }
+  }
+  

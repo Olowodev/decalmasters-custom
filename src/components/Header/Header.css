@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .headerImg {
+        width: 200px;
+    }
+
+    .img1 {
+        left: 10;
+    }
+
+    .img2 {
+        right: 10;
+    }
+
+    .img3 {
+        bottom: -18rem;
+    }
+}
+
+.headWriteup {
+    z-index: 10;
+}
+
+    @media (min-width: 320px) {
+        .headWriteup h1 {
+            font-size: calc(1.875rem + ((1vw - 3.2px) * 1.6071));
+          min-height: 0vw;
+        }
+    }
