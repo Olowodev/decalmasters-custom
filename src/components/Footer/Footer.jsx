@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaChevronCircleRight, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
+import { FaChevronCircleRight, FaInstagram, FaTiktok, FaWhatsapp, FaEtsy } from 'react-icons/fa'
 import masterCard from '../../images/mastercard.png'
 import visa from '../../images/visa.png'
 import './Footer.css'
@@ -15,7 +15,7 @@ const Footer = () => {
                       <h1>EXPRESSING DECALS</h1>
                     <div className='input'>
                         <input type='text' placeholder='Email address' />
-                        <FaChevronCircleRight style={{fontSize:24}} />
+                        <button><FaChevronCircleRight style={{fontSize:24}} /></button>
                     </div>
                     <div className='payment'>
                         <div>
@@ -29,10 +29,7 @@ const Footer = () => {
                 <div className='rightfoot'>
                     <h1>Support</h1>
                     <div className='footlinks'>
-                        <p>Terms &#38; Conditions</p>
-                        <p>Privacy Policy</p>
-                        <p>Contact</p>
-                        <p>Login</p>
+                        <p><a href='#form'>Contact Form</a></p>
                     </div>
                     <div className='socials'>
                         <div>
@@ -43,6 +40,9 @@ const Footer = () => {
                         </div>
                         <div> 
                             <a href='https://wa.me/447450085724' target='_blank'><FaWhatsapp style={{fontSize:22}}  /></a>
+                        </div>
+                        <div>
+                            <a href='https://www.etsy.com/uk/shop/TheDecalMasters' target='_blank'><FaEtsy style={{fontSize: 22}} /></a>
                         </div>
                     </div>
                 </div>

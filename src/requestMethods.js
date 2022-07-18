@@ -2,9 +2,9 @@ import axios from "axios";
 
 
 
-const BASE_URL = 'http://192.168.0.18:5000';
+const BASE_URL = 'https://thedm-api.herokuapp.com';
 
-export const publicRequest = axios.create({
+export const api = axios.create({
     baseURL: BASE_URL
 });
 

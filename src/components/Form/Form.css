@@ -3,10 +3,18 @@
         margin: 0 1rem;
     }
 
-    .formCont input {
+    .formCont .inputSpace {
         width: calc(18.75rem + ((1vw - 3.2px) * 75));
         min-height: 0vw;
     }
 
     
 }
+
+@media (min-width: 320px) {
+    .checkbox p {
+      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.1786));
+      min-height: 0vw;
+    }
+  }
+

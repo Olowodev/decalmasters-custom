@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo.png'
-import {FaInstagram, FaPhoneAlt, FaTiktok, FaWhatsapp} from 'react-icons/fa'
+import {FaInstagram, FaPhoneAlt, FaTiktok, FaWhatsapp, FaEtsy} from 'react-icons/fa'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
                 <a href='https://www.tiktok.com/@thedecalmasters' target='_blank'><FaTiktok size={30} /></a>
                 <a href='https://www.instagram.com/thedecalmasters' target='_blank'><FaInstagram size={30} /></a>
                 <a href='https://wa.me/447450085724' target='_blank'><FaWhatsapp size={30} /></a>
+                <a href='https://www.etsy.com/uk/shop/TheDecalMasters' target='_blank'><FaEtsy size={30} /></a>
             </div>
         </div>
     </div>

@@ -1,7 +1,4 @@
 @media screen and (max-width: 768px) {
-    .headerImg {
-        width: 200px;
-    }
 
     .img1 {
         left: 10;
@@ -12,9 +9,23 @@
     }
 
     .img3 {
-        bottom: -18rem;
+        bottom: -13rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .img3 {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) {
+    .headerImg {
+      width: calc(12.5rem + ((1vw - 3.2px) * 17.8571));
+      min-height: 0vw;
+    }
+  }
+  
 
 .headWriteup {
     z-index: 10;

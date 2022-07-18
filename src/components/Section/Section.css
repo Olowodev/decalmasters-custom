@@ -21,3 +21,26 @@
     }
 }
 
+@media (min-width: 769px) {
+    .sectionCont {
+      margin-left: calc(4rem + ((1vw - 7.29px) * 11.2518));
+      margin-right: calc(4rem + ((1vw - 7.29px) * 11.2518));
+      min-height: 0vw;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .sectionCont {
+      gap: calc(2rem + ((1vw - 7.69px) * 4.769));
+      min-height: 0vw;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .writeup h1 {
+      font-size: calc(1.8rem + ((1vw - 7.69px) * 2.8614));
+      min-height: 0vw;
+    }
+    
+  }
+
