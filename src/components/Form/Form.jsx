@@ -20,7 +20,7 @@ const Form = () => {
     const messageCharsLeft = 1500 - message.length;
 
     const checkbox = () => {
-        if (ischecked == false) {
+        if (ischecked === false) {
             setChecked(true)
         } else {
             setChecked(false)
@@ -151,7 +151,7 @@ const Form = () => {
                 <input value='SUBMIT' className='mt-2 bg-white self-start py-3 px-8 text-lg border-white cursor-pointer border hover:bg-transparent hover:text-white' type='submit' />
             </form>
 
-            <a className='text-2xl text-center underline hover:text-white cursor-pointer' href='https://www.etsy.com/uk/shop/TheDecalMasters' target='_blank'><p>Shop ready made designs at my ETSY shop</p></a>
+            <a className='text-2xl text-center underline hover:text-white cursor-pointer' href='https://www.etsy.com/uk/shop/TheDecalMasters' rel="noreferrer" target='_blank'><p>Shop ready made designs at my ETSY shop</p></a>
         </div>
     </div>
   )

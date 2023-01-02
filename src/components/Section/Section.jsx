@@ -11,7 +11,7 @@ const Section = ({bg, reverse, title, image, text}) => {
           <a href='#form' className='bg-white text-slate-800 px-8 py-3 border border-white hover:bg-transparent cursor-pointer hover:text-white'>GET YOURS</a>
         </div>
         <div className='sectionImg'>
-          <img src={image} alt='section image' />
+          <img src={image} alt='section img' />
         </div>
       </div>
     </div>

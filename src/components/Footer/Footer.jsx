@@ -18,7 +18,7 @@ const Footer = () => {
 
     const [errorMessage, setErrorMessage] = useState('')
 
-    const { register, handleSubmit, watch, formState: {errors}, reset } = useForm();
+    const { register, handleSubmit, formState: {errors}, reset } = useForm();
 
     const onChange = () => {
         setErrorMessage('')
@@ -92,16 +92,16 @@ const Footer = () => {
                     </div>
                     <div className='socials'>
                         <div>
-                            <a href='https://www.instagram.com/thedecalmasters' target='_blank' aria-label='instagram'><FaInstagram style={{fontSize:22}} /></a>
+                            <a href='https://www.instagram.com/thedecalmasters' target=' rel="noreferrer"_blank' aria-label='instagram'><FaInstagram style={{fontSize:22}} /></a>
                         </div>
                         <div>
-                            <a href='https://www.tiktok.com/@thedecalmasters' target='_blank' aria-label='tiktok'><FaTiktok style={{fontSize:22}}  /></a>
+                            <a href='https://www.tiktok.com/@thedecalmasters' rel="noreferrer" target='_blank' aria-label='tiktok'><FaTiktok style={{fontSize:22}}  /></a>
                         </div>
                         <div> 
-                            <a href='https://wa.me/447450085724' target='_blank' aria-label='whatsapp'><FaWhatsapp style={{fontSize:22}}  /></a>
+                            <a href='https://wa.me/447450085724' rel="noreferrer" target='_blank' aria-label='whatsapp'><FaWhatsapp style={{fontSize:22}}  /></a>
                         </div>
                         <div>
-                            <a href='https://www.etsy.com/uk/shop/TheDecalMasters' target='_blank' aria-label='etsy'><FaEtsy style={{fontSize: 22}} /></a>
+                            <a href='https://www.etsy.com/uk/shop/TheDecalMasters' rel="noreferrer" target='_blank' aria-label='etsy'><FaEtsy style={{fontSize: 22}} /></a>
                         </div>
                     </div>
                 </div>

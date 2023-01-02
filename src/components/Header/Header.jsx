@@ -14,13 +14,13 @@ const Header = () => {
             <a href='#form' className='bg-[#15921a] border border-[#15921a] cursor-pointer hover:text-[#15921a] hover:bg-white hover:border px-5 py-3 text-3xl text-white mt-4'>Contact Us</a>
         </div>
         <div className='absolute headerImg img1 top-4 -left-24 rotate-[120deg]'>
-            <img width={400} height={400} src={decal1} alt='header image 1' />
+            <img alt='header Img 1' width={400} height={400} src={decal1} />
         </div>
         <div className='absolute top-4 headerImg img2 -right-24 -rotate-[115deg]'>
-            <img width={400} height={400} src={decal2} alt='header image 2' />
+            <img alt='header Img 2' width={400} height={400} src={decal2} />
         </div>
         <div className='absolute -bottom-52 img3'>
-            <img width={600} height={600} src={decal3} alt='header image 3' />
+            <img alt='header Img 3' width={600} height={600} src={decal3} />
         </div>
     </div>
   )

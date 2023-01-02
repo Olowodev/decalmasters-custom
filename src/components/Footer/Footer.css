@@ -30,6 +30,12 @@
     }
 }
 
+@media screen and (min-width: 2000px) {
+    .leftfoot h1 {
+        line-height: 75px;
+    }
+}
+
 @media screen and (max-width: 620px) {
     .footcontainer {
         flex-direction: column;
@@ -43,6 +49,18 @@
 
 .leftfoot h1:not(:first-child) {
     margin-top: -16px;
+}
+
+@media screen and (max-width: 400px) {
+    .leftfoot h1:not(:nth-child(2)) {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .leftfoot h1:not(:first-child) {
+        margin-top: 0px;
+    }
 }
 
 .payment {
